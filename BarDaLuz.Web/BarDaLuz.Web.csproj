@@ -99,6 +99,9 @@
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\ProductTabController.cs" />
+    <Compile Include="Controllers\TabController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -178,12 +181,33 @@
     <Content Include="Views\Shared\_LogOnPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Tab\Index.cshtml" />
+    <Content Include="Views\Tab\Details.cshtml" />
+    <Content Include="Views\Tab\Create.cshtml" />
+    <Content Include="Views\Tab\Edit.cshtml" />
+    <Content Include="Views\Tab\Delete.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Product\Details.cshtml" />
+    <Content Include="Views\Product\Create.cshtml" />
+    <Content Include="Views\Product\Edit.cshtml" />
+    <Content Include="Views\Product\Delete.cshtml" />
+    <Content Include="Views\ProductTab\Index.cshtml" />
+    <Content Include="Views\ProductTab\Details.cshtml" />
+    <Content Include="Views\ProductTab\Create.cshtml" />
+    <Content Include="Views\ProductTab\Edit.cshtml" />
+    <Content Include="Views\ProductTab\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BarDaLuz.Db\BarDaLuz.Db.csproj">
+      <Project>{ecd3674b-fb1b-4b21-b8a0-b90e83f4f5da}</Project>
+      <Name>BarDaLuz.Db</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
