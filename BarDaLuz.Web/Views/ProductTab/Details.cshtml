@@ -1,0 +1,30 @@
+﻿@model BarDaLuz.Db.ProductTab
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>ProductTab</legend>
+
+    <div class="display-label">Quantity</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Quantity)
+    </div>
+
+    <div class="display-label">Product</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Product.Name)
+    </div>
+
+    <div class="display-label">Tab</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Tab.Code)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

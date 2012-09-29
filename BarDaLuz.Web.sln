@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarDaLuz.Web", "BarDaLuz.Web\BarDaLuz.Web.csproj", "{68E44FB9-39D6-4BEC-AB11-4D7FAC933794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarDaLuz.Db", "BarDaLuz.Db\BarDaLuz.Db.csproj", "{ECD3674B-FB1B-4B21-B8A0-B90E83F4F5DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{18A1E43C-4ED2-4C39-AE4D-C0551B27F083}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68E44FB9-39D6-4BEC-AB11-4D7FAC933794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E44FB9-39D6-4BEC-AB11-4D7FAC933794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E44FB9-39D6-4BEC-AB11-4D7FAC933794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E44FB9-39D6-4BEC-AB11-4D7FAC933794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD3674B-FB1B-4B21-B8A0-B90E83F4F5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD3674B-FB1B-4B21-B8A0-B90E83F4F5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD3674B-FB1B-4B21-B8A0-B90E83F4F5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD3674B-FB1B-4B21-B8A0-B90E83F4F5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
