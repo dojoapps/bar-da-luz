@@ -13,7 +13,7 @@ namespace BarDaLuz.Web.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.Message = db.Database.Connection.ConnectionString;
+            ViewBag.Message = "Welcome";//db.Database.Connection.ConnectionString;
 
             return View();
         }
